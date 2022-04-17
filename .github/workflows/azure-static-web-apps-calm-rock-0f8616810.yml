@@ -10,10 +10,31 @@ on:
       - main
 
 jobs:
+  lint-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Lint bash scripts
+        run: ./scripts/lint-markdown.sh
+
+  lint-bash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Lint bash scripts
+        run: ./scripts/lint-bash-scripts.sh
+
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
+    needs: [lint-markdown, lint-bash]
     steps:
       - uses: actions/checkout@v2
         with:
