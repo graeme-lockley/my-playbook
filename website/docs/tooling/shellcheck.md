@@ -19,4 +19,3 @@ The goals of ShellCheck are
 
 - [ShellCheck Manual](https://github.com/koalaman/shellcheck)
 - [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images
-
