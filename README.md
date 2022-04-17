@@ -16,4 +16,3 @@ Firstly install [node.js](https://nodejs.org), checkout the code base and then, 
 npm install
 npm run start
 ```
-
