@@ -35,14 +35,11 @@ shellcheck -x "$SCRIPT_HOME_DIR"/../bin/*.sh || exit 1
 
 The default linting rules configured in `ShellCheck`.
 
-## Azure Installation
-
-Pre-installed with the Ubuntu images.
-
 ## Pipeline Usage
 
 The `lint-bash.sh` is part of validation and is called prior to configuration infrastructure or compiling any source code.
 
 ## See Also
 
+- [ShellCheck Tooling](../../tooling/shellcheck) for installation instructions
 - [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images.
