@@ -11,5 +11,4 @@ The principle of shift left is to take tasks and perform them as early as possib
 
 The *Continuous Shift Left* tasks are divided into the following groupings.
 
-<img src = "/shift-left/csl-types.drawio.svg" alt="Fred"/>
-
+![Continuous Shit Left Types](/shift-left/csl-types.drawio.svg)

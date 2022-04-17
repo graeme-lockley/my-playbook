@@ -6,7 +6,7 @@
 
 Place the script `lint-bash.sh` into
 
-```
+```bash
 ~/scripts
 ```
 

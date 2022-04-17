@@ -6,7 +6,7 @@
 
 Place the script `lint-bicep.sh` into
 
-```
+```bash
 ~/scripts
 ```
 
