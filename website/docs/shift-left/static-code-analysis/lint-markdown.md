@@ -47,7 +47,7 @@ The default linting rules including reporting lines greater than 80 characters. 
 
 ## Pipeline Usage
 
-The `lint-bicep.sh` is part of validation and is called prior to configuration infrastructure.
+The `lint-markdown.sh` is part of validation and is called prior to configuration infrastructure.
 
 ## See Also
 
