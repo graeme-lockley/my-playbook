@@ -53,15 +53,12 @@ Include `~/output.log` into your `.gitignore` to avoid accidentally checking in 
 
 The default linting rules configured in `az bicep`.
 
-## Azure Installation
-
-Pre-installed with all images.
-
 ## Pipeline Usage
 
 The `lint-bicep.sh` is part of validation and is called prior to configuration infrastructure.
 
 ## See Also
 
-- [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images
+- [az bicep Tooling](../../tooling/az-bicep) for installation instructions
 - [az bicep](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest) CLI reference with examples
+- [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images
