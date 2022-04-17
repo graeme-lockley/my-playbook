@@ -12,7 +12,7 @@ Place the script `lint-markdown.sh` into
 ~/scripts
 ```
 
-The purpose of this script is to perform all linting of markdown scripts returning 0 should there be no warnings and non 0 otherwise.  The following is an example script that lints all the project's `README.md` and then all `md` files in `./website/docs` and `./website/blog` directory tree.
+The purpose of this script is to perform all linting of markdown scripts returning 0 should there be no warnings and non 0 otherwise.  The following is an example script that lints a project's `README.md` and then all `md` files in `./website/docs` and `./website/blog` directory tree.
 
 ```bash
 #!/usr/bin/env bash
@@ -29,7 +29,7 @@ markdownlint --config "$SCRIPT_HOME_DIR"/.markdownlint.json "$SCRIPT_HOME_DIR"/.
 The `--config` option allows a configuration file to be referenced changing or disabling lint rules.
 :::
 
-:::note
+:::tip
 
 Multiple calls to `markdownlint` must have the `|| exit 1` suffix so that the `lint-markdown.sh` will return a non 0 failing the pipeline.
 
