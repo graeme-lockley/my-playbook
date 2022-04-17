@@ -28,8 +28,9 @@ However, static analysis comes with some drawbacks:
 
 | Name | Language | Tool | Status |
 |-|-|-|-|
-| [Lint Bash Shell Scripts](./lint-bash-shell) | [bash](https://www.gnu.org/software/bash/) | [ShellCheck](https://www.shellcheck.net) | Mandatory |
-| [Lint Bicep](./lint-bicep) | [bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/) | [az bicep](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest) | Mandatory |
+| [Lint Bash Shell Scripts](./lint-bash-shell) | [bash](https://www.gnu.org/software/bash/) | [ShellCheck](../../tooling/shellcheck) | Mandatory |
+| [Lint Bicep Templates](./lint-bicep) | [bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/) | [az bicep](../../tooling/az-bicep) | Mandatory |
+| [Lint Markdown Content](./lint-markdown) | [Markdown](https://en.wikipedia.org/wiki/Markdown) | [markdownlint](../../tooling/markdownlint) | Mandatory |
 
 The column *Status* can have the following values
 

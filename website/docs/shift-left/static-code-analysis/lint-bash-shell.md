@@ -42,4 +42,3 @@ The `lint-bash.sh` is part of validation and is called prior to configuration in
 ## See Also
 
 - [ShellCheck Tooling](../../tooling/shellcheck) for installation instructions
-- [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images.

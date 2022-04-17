@@ -17,3 +17,4 @@ markdownlint is a static analysis tool for Node.js with a library of rules to en
 ## See Also
 
 - The [Markdown Guide](https://www.markdownguide.org)
+- [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted) contains references to the applications and tooling that are included in each of the different images
