@@ -17,6 +17,9 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
 
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli 
+
       - name: Lint bash scripts
         run: ./scripts/lint-markdown.sh
 
