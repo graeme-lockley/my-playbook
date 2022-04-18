@@ -33,11 +33,24 @@ jobs:
       - name: Lint bash scripts
         run: ./scripts/lint-bash.sh
 
+  sca-node-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Install better-npm-audit
+        run: npm install -g better-npm-audit
+
+      - name: Lint bash scripts
+        run: ./scripts/lint-markdown.sh
+
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
-    needs: [lint-markdown, lint-bash]
+    needs: [lint-markdown, lint-bash, sca-node-dependencies]
     steps:
       - uses: actions/checkout@v2
         with:
