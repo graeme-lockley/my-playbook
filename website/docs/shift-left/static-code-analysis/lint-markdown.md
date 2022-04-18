@@ -37,7 +37,7 @@ Multiple calls to `markdownlint` must have the `|| exit 1` suffix so that the `l
 
 ## Configuration
 
-The default linting rules including reporting lines greater than 80 characters.  This rule is too restrictive so is turned off.
+The [default linting rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) including reporting lines greater than 80 characters.  This rule is too restrictive so is turned off.
 
 ```json title=".markdownlint.json"
 {
