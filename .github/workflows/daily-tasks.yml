@@ -2,7 +2,7 @@ name: Daily Tasks
 
 on:
   schedule:
-    cron: “* 0 0 * * *” # every day at midnight
+    - cron: “0 0 * * *” # every day at midnight
 
 jobs:
   sca-node-dependencies:
