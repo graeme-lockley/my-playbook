@@ -16,12 +16,15 @@ Benefits of using static analysis include:
 - Automated tools are less prone to human error
 - Increase the likelihood of finding vulnerabilities in code
 - Performed in an offline development environment
+- There are lots of tools available
 
 However, static analysis comes with some drawbacks:
 
 - False positives can be detected
 - Not all coding rules can always be followed requiring rule overrides
 - System and third-party libraries are not analyzed
+
+# 
 
 ## Tools
 
