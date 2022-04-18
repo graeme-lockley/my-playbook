@@ -5,6 +5,8 @@ This document captures my playbook.
 Topics and themes covered in this playbook are:
 
 - Principles
+- Methods
+- Processes
 - Tooling
 - How to
 
