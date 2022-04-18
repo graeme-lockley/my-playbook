@@ -1,19 +1,18 @@
-# Static Code Analysis
+# Static Code Analysis (SA)
 
 [Static Code Analysis](https://en.wikipedia.org/wiki/Static_program_analysis) is the analysis of source code without needing to execute the code.  The purpose of this code is to highlight:
 
 - Programming errors
 - Coding standard violations
 - Idiomatic violations
-- Assignment and reference to undefined values
+- Assignment and reference to undefined variables
 - Syntax violations
-- Security vulnerabilities
 
 Benefits of using static analysis include:
 
 - Increased code quality and code consistency
 - Automated tools faster than manual code review
-- Paired with normal testing methods, static testing allows for more depth in debugging code
+- Paired with normal testing methods, static analysis allows for more depth in debugging code
 - Automated tools are less prone to human error
 - Increase the likelihood of finding vulnerabilities in code
 - Performed in an offline development environment
