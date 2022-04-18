@@ -20,7 +20,7 @@ jobs:
       - name: Install markdownlint
         run: npm install -g markdownlint-cli 
 
-      - name: Lint bash scripts
+      - name: Lint markdown content
         run: ./scripts/lint-markdown.sh
 
   lint-bash:
