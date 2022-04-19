@@ -24,8 +24,6 @@ However, static analysis comes with some drawbacks:
 - Not all coding rules can always be followed requiring rule overrides
 - System and third-party libraries are not analyzed
 
-# 
-
 ## Tools
 
 | Name | Language | Tool | Status |
