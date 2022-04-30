@@ -4,9 +4,9 @@
 
 This analysis is performed to evaluate:
 
-- security
-- license compliance
-- code quality
+- Security
+- License compliance
+- Code quality
 
 ## Tools
 
