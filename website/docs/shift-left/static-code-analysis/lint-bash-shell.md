@@ -37,7 +37,7 @@ The default linting rules configured in `ShellCheck`.
 
 ## Pipeline Usage
 
-The `lint-bash.sh` is part of validation and is called prior to configuration infrastructure or compiling any source code.
+The `lint-bash.sh` is part of validation and is called prior to bundling of deployable assets.
 
 ## See Also
 

@@ -55,7 +55,7 @@ The default linting rules configured in `az bicep`.
 
 ## Pipeline Usage
 
-The `lint-bicep.sh` is part of validation and is called prior to configuration infrastructure.
+The `lint-bicep.sh` is part of validation and is called prior to configuring infrastructure.
 
 ## See Also
 

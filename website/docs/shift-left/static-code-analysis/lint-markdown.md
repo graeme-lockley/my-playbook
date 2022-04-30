@@ -47,7 +47,7 @@ The [default linting rules](https://github.com/DavidAnson/markdownlint/blob/main
 
 ## Pipeline Usage
 
-The `lint-markdown.sh` is part of validation and is called prior to configuration infrastructure.
+The `lint-markdown.sh` is part of validation and is called prior to building deployable assets.
 
 ## See Also
 
