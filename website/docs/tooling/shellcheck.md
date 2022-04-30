@@ -14,6 +14,7 @@ The goals of ShellCheck are
 |-|-|
 | Mac dotfiles | module `shellcheck` |
 | Mac adhoc | `brew install shellcheck` |
+| Dev Container | `RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \` <br/> &nbsp;&nbsp;&nbsp;&nbsp;`&& apt-get -y install --no-install-recommends shellcheck` |
 
 ## See Also
 

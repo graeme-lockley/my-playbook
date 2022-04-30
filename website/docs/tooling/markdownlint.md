@@ -9,6 +9,7 @@
 | Mac dotfiles | module `markdownlint-cli` |
 | Mac adhoc | `brew install markdownlint-cli` |
 | Github Actions | Manually install using using a shell run `npm install -g markdownlint-cli` |
+| Dev Container | Assuming `node.js` is already installed add the line: <br/> `RUN su node -c "npm install -g markdownlint-cli"` |
 
 ## See Also
 
