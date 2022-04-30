@@ -1,6 +1,6 @@
 # Node Dependencies
 
-[npm](https://en.wikipedia.org/wiki/Npm_(software)) is the package manager for [node.js](https://nodejs.org).  Npm is determines which dependencies have vulnerabilities and has the option to (attempt to) fix these vulnerabilities.  An improved version of `npm audit` is `better-npm-audit` which presents the vulnerabilities in a more readable and digestable format.
+[npm](https://en.wikipedia.org/wiki/Npm_(software)) is the package manager for [node.js](https://nodejs.org).  Npm determines which dependencies have vulnerabilities and has the option to (attempt to) fix these vulnerabilities.  An improved version of `npm audit` is `better-npm-audit` which presents the vulnerabilities in a more readable and digestable format.
 
 ## Structure of Repository
 
