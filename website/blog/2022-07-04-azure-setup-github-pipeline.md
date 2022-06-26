@@ -92,4 +92,4 @@ On other occasions it is necessary to place a component of this secret into the 
 
 # See Also
 
-- [Azure CLI Basics: Logging In](https://craigforrester.com/posts/azure-cli-basics-logging-in/) is a really nice blog post containing some really helpful CLI commands.
+- [Azure CLI Basics: Logging In](https://craigforrester.com/posts/azure-cli-basics-logging-in/) is a really nice blog post containing some helpful CLI commands.
