@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SCRIPT_HOME_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-EXCLUSIONS=1070259,1070415
+EXCLUSIONS=1070259,1080920
 
 (
     cd "$SCRIPT_HOME_DIR"/../website || exit 1
